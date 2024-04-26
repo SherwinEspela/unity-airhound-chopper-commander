@@ -1,0 +1,29 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class DetectionScriptForDrone1 : MonoBehaviour {
+	
+	public GameObject[] triggeredObjects; 
+	
+	void OnTriggerEnter(Collider col) 
+	{
+		if (col.gameObject.name == "chopperMain") {
+			foreach (GameObject triggeredObject in triggeredObjects) {
+				triggeredObject.SendMessage("setIsFiring",SendMessageOptions.DontRequireReceiver);
+				triggeredObject.SendMessage("setIsAttacking",SendMessageOptions.DontRequireReceiver);
+			}
+		} 
+	}
+	
+	void OnTriggerExit(Collider col) 
+	{
+		if (col.gameObject.name == "chopperMain") {
+			foreach (GameObject triggeredObject in triggeredObjects) {
+				triggeredObject.SendMessage("setIsNotFiring",SendMessageOptions.DontRequireReceiver);
+				triggeredObject.SendMessage("setIsNotAttacking",SendMessageOptions.DontRequireReceiver);
+			}
+			
+			triggeredObjects[1].SendMessage("setDelayedFiring",SendMessageOptions.DontRequireReceiver);
+		} 
+	}
+}

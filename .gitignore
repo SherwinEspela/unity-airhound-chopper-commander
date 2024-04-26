@@ -70,3 +70,50 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Unity-AirHound/Assets/_Hedgehog_Team/
+Unity-AirHound/Assets/3DImports/
+Unity-AirHound/Assets/3DImports_Improved/
+Unity-AirHound/Assets/AnimationClips/
+Unity-AirHound/Assets/Audio/
+Unity-AirHound/Assets/BuildReport/
+Unity-AirHound/Assets/EasyTouch/
+Unity-AirHound/Assets/Editor/
+Unity-AirHound/Assets/Exploder/
+Unity-AirHound/Assets/Explosion_V2/
+Unity-AirHound/Assets/Explosions/
+Unity-AirHound/Assets/Extensions/
+Unity-AirHound/Assets/FastShadows/
+Unity-AirHound/Assets/iMG Explosion FX/
+Unity-AirHound/Assets/Fonts/
+Unity-AirHound/Assets/JMO Assets/
+Unity-AirHound/Assets/Marmoset/
+Unity-AirHound/Assets/Materials/
+Unity-AirHound/Assets/ModernGunEffects/
+Unity-AirHound/Assets/Objects/
+Unity-AirHound/Assets/Plugins/
+Unity-AirHound/Assets/PoolManagerExampleFiles/
+Unity-AirHound/Assets/Prefabs/
+Unity-AirHound/Assets/ProFlares/
+Unity-AirHound/Assets/Resources/
+Unity-AirHound/Assets/Textures/
+Unity-AirHound/Library/
+Unity-AirHound/Assets/VirtualJoystickTexture_Vol1/
+Unity-AirHound/Assets/UserSpriteSheetEffects/
+Unity-AirHound/Assets/Terrain Assets/
+Unity-AirHound/Assets/T4M/
+Unity-AirHound/Assets/Standard Assets/
+Unity-AirHound/Assets/Standard Assets (Mobile)/
+Unity-AirHound/Assets/ShurikenMagic/
+Unity-AirHound/Assets/Shaders/
+Unity-AirHound/._.DS_Store
+Unity-AirHound/.DS_Store
+Unity-AirHound/RegisterIcalls.cpp
+*.dll
+*.dylib
+*.meta
+Unity-AirHound/Assets/Gizmos/
+*.DS_Store
+Unity-AirHound/Assets/Directional light.prefab
+Unity-AirHound/Assets/Models/
+Unity-AirHound/Assets/link.xml
+*.asset
